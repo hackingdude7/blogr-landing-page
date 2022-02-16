@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;900&family=Ubuntu:wght@400;500;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+}
+/* ##################### First Section ############################ */
+.bg-color-1{
+    background: linear-gradient(90deg,hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+    border-bottom-left-radius: 100px;
+}
+.home{
+    width: 100%;
+    height: 600px;
+    background: url(./images/bg-pattern-intro-desktop.svg);
+    background-position: 25% 52.2%;
+    background-repeat: no-repeat;
+  position: relative;
+}
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    margin: auto;
+    padding-top: 3.8rem;
+    position: relative;
+}
+.arrow{
+    height: 8px;
+    margin-right: 1rem;
+}
+.reverse{
+    transform: rotate(180deg);
+}
+.menu{
+    display: flex;
+    align-items: center;
+    font-weight: 450;
+    color: white;
+    position: absolute;
+    left: 14%;
+}
+.menu p{
+    padding: 1rem 0.7rem 1rem 1rem;   
+    margin: 0;
+}
+.menu p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.logo{
+   margin-left: 1rem;
+}
+.login button{
+margin-left: 1.7rem;
+}
+.log{
+    border: none;
+    color:white;
+    font-weight: 500;
+    background: transparent;
+    font-size: 16px;
+}
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+    width: 140px;
+    height: 48px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s;
+    color: hsl(353, 100%, 59%);
+}
+
+.home-content{
+    font-family: 'Overpass', sans-serif;
+    width: 57%;
+    margin: auto;
+    text-align: center;
+    margin-top: 8rem;
+    color: white;
+}
+.home-content h1{
+    font-size: 56px;
+    margin: 1rem 0rem 1rem 0rem;
+}
+.home-content p{
+    font-size: 18px;
+}
+.home-content button{
+    margin-top: 1.8rem;
+    margin-left: 1rem;
+}
+.learn-more{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.3s;
+}
+
+.sign:hover , .free:hover{
+    background-color: #FF7B86;
+    color: white;
+}
+.learn-more:hover{
+    color:hsl(353, 100%, 59%);
+background-color: white;
+}
+
+/* ########################## Second Section ############################# */
+.second{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.4rem;
+    height: 885px;
+    background: url(./images/illustration-editor-desktop.svg) no-repeat;
+    background-position: 154% 0%;
+}
+.second-content{
+    position: relative;
+    width: 40%;
+    font-size: 18px;
+    left: 12%;
+}
+.second h1{
+    margin: 5.625rem auto ;
+    font-size: 36px;
+}
+.para-2{
+    margin-top: 5.31rem;
+}
+.second-content h2{
+    margin-bottom: 2.5rem;
+}
+
+/* ################### Third Section ######################### */
+
+.third{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    margin-top: 3.75rem;
+    background: url(./images/bg-pattern-circles.svg) no-repeat;
+    background-position: -55% 82%;
+    
+}
+.third-content{
+    width: 38%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5rem;
+    color: white;
+    font-weight: 300;
+}
+.third-content h2{
+    font-size: 38px;
+    margin: 0.6rem 0rem;
+}
+.image img{
+    position: relative;
+    top: -18%;
+    left: 7%;
+}
+.bg-color-3{
+    background: linear-gradient(90deg,hsl(237, 17%, 21%),hsl(237, 23%, 32%));
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+/* ############################# Forth Section ############################### */
+.forth{
+    height: 800px;
+    margin-top: 7.18rem;
+    position: relative;
+    background: url(./images/illustration-laptop-desktop.svg) no-repeat;
+    background-position: -60% 0%;
+}
+.forth-content{
+    width: 38%;
+    position: absolute;
+    transform: translate(134%,37%);
+    font-size: 18px;
+}
+.forth-para-1{
+    margin-bottom: 5.6rem;
+}
+/* ########################### Fifth ####################### */
+.fifth{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 360px;
+    margin-top: 3rem;
+    position: relative;
+    border-top-right-radius: 100px;
+    background:  hsl(240, 10%, 16%);
+}
+.fifth-content{
+    display: flex;
+    justify-content: space-around;
+    width: 100vh;
+    margin-top: 4.3rem;
+    position: absolute;
+    left: 24.5%;
+    color: hsl(240, 2%, 79%);
+    
+}
+.fifth-content p:first-child{
+    color: white;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.fifth-content p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fifth .logo{
+    position: absolute;
+    top: 21%;
+    left: 10%;
+}
+.heading{
+    color: hsl(208, 49%, 24%);
+}
+.para{
+    color: hsl(207, 13%, 34%);
+}
+.box{
+    width: 165px;
+    background: rgb(248, 248, 248);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.548);
+    border-radius: 5px;
+    position: absolute;
+}
+.box p{
+    margin-left: 1.5rem;
+}
+.box p:first-child{
+    padding-top: 1rem;
+}
+.box p:last-child{
+    padding-bottom: 1rem;
+}
+.box p:hover{
+    font-weight: 900;
+    cursor: pointer;
+}
+.box1{
+    display: none;
+    top: 20%;
+    left: 21%;
+}
+.box2{
+    display: none;
+    top: 20%;
+    left: 30%;
+}
+.box3{
+    display: none;
+    top: 20%;
+    left: 38%;
+}
+.active{
+    display: block;
+}
